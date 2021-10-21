@@ -6,7 +6,6 @@ A collection of commonly used code for Algorithms Contest written in C++.
 
 * ![int from_bin(string bin)](src/number/from_bin.cpp)
 * ![string to_bin(int num)](src/number/to_bin.cpp)
-
 * ![int gcd(int x, int y)](src/number/gcd.cpp)
 * ![bool is_prime(int x)](src/number/is_prime.cpp)
 * ![vector<int> get_primes(int upper_bound)](src/number/get_primes.cpp)
