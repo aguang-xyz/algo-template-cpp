@@ -19,14 +19,23 @@ A collection of commonly used code for Algorithms Contest written in C++.
 
 ## Vector
 
+* ![void each(vector<T> elements, Consumer consume)](src/vector/each.cpp)
+* ![T max(vector<T> elements)](src/vector/max.cpp)
+* ![T min(vector<T> elements)](src/vector/min.cpp)
 * ![vector<T> range(T from, T count)](src/vector/range.cpp)
 * ![vector<T> reversed(vector<T> elements)](src/vector/reversed.cpp)
 * ![vector<T> select(vector<T> elements, UnaryOperation convert)](src/vector/select.cpp)
 * ![vector<T> where(vector<T> elements, UnaryPredicate pred)](src/vector/where.cpp)
+* ![vector<T> sorted(vector<T> elements, Comparator compare)](src/vector/sorted.cpp)
 
 ## Map
 
 * ![TValue get_or_default(map<TKey, TValue> m, TKey key, TValue default_val)](src/map/get_or_default.cpp)
+* ![TValue& put_if_absent(map<TKey, TValue> &m, TKey key, TValue val)](src/map/put_if_absent.cpp)
+
+## Queue
+
+* ![void each(queue<T> &q, Consumer consume)](src/queue/each.cpp)
 
 ## Tree
 
@@ -40,3 +49,7 @@ A collection of commonly used code for Algorithms Contest written in C++.
   * `double median(treap *x)`
 * ![trie](src/tree/trie.cpp)
   * `vector<trie*> find(trie* &root, string path)`
+
+## Graph
+
+* ![unordered_map<int, int> spfa(unordered_map<int, vector<pair<int, int>>> &g, int src)](src/graph/spfa.cpp)
