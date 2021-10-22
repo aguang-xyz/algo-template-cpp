@@ -1,5 +1,3 @@
-#include <cstring>
-
 struct trie
 {
     trie *children[256];

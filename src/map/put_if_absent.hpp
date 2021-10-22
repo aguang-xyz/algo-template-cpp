@@ -1,6 +1,3 @@
-#include <map>
-#include <unordered_map>
-
 template<class TKey, class TValue>
 inline TValue& put_if_absent(map<TKey, TValue> &m, TKey key, TValue val)
 {

@@ -1,5 +1,3 @@
-#include <cstdlib>
-
 struct treap
 {
     int val, weight, size;

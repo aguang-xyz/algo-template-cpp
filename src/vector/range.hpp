@@ -1,5 +1,3 @@
-#include<vector>
-
 template<class T>
 vector<T> range(T from, T count)
 {

@@ -1,8 +1,4 @@
-#include <queue>
-#include <unordered_map>
-#include <utility>
-
-#include "../map/get_or_default.cpp"
+#include "../map/get_or_default.hpp"
 
 inline unordered_map<int, int> spfa(unordered_map<int, vector<pair<int, int>>> &g, int src)
 {

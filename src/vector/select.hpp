@@ -1,5 +1,3 @@
-#include <vector>
-
 template<class T, class UnaryOperation>
 vector<T> select(vector<T> elements, UnaryOperation convert)
 {

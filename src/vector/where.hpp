@@ -1,5 +1,3 @@
-#include <vector>
-
 template<class T, class UnaryPredicate>
 vector<T> where(vector<T> elements, UnaryPredicate pred)
 {
