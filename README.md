@@ -19,6 +19,7 @@ A collection of commonly used code for Algorithms Contest written in C++.
 
 ## Vector
 
+<<<<<<< HEAD
 * [void each(vector<T> elements, Consumer consume)](src/vector/each.hpp)
 * [T max(vector<T> elements)](src/vector/max.hpp)
 * [T min(vector<T> elements)](src/vector/min.hpp)
@@ -27,6 +28,17 @@ A collection of commonly used code for Algorithms Contest written in C++.
 * [vector<T> select(vector<T> elements, UnaryOperation convert)](src/vector/select.hpp)
 * [vector<T> where(vector<T> elements, UnaryPredicate pred)](src/vector/where.hpp)
 * [vector<T> sorted(vector<T> elements, Comparator compare)](src/vector/sorted.hpp)
+=======
+* ![void each(vector<T> elements, Consumer consume)](src/vector/each.hpp)
+* ![T max(vector<T> elements)](src/vector/max.hpp)
+* ![T min(vector<T> elements)](src/vector/min.hpp)
+* ![vector<T> range(T from, T count)](src/vector/range.hpp)
+* ![vector<T> reversed(vector<T> elements)](src/vector/reversed.hpp)
+* ![vector<T> distinct(vector<T> elements)](src/vector/distinct.hpp)
+* ![vector<T> select(vector<T> elements, UnaryOperation convert)](src/vector/select.hpp)
+* ![vector<T> where(vector<T> elements, UnaryPredicate pred)](src/vector/where.hpp)
+* ![vector<T> sorted(vector<T> elements, Comparator compare)](src/vector/sorted.hpp)
+>>>>>>> d32cfbb (Distinct)
 
 ## Map
 

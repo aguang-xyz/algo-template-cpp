@@ -14,6 +14,7 @@
 #include "vector/min.hpp"
 #include "vector/range.hpp"
 #include "vector/reversed.hpp"
+#include "vector/distinct.hpp"
 #include "vector/select.hpp"
 #include "vector/where.hpp"
 #include "vector/sorted.hpp"
