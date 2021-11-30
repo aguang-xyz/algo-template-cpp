@@ -1,10 +1,12 @@
-all: out/test out/main.hpp
+all: test out/main.hpp
 
-out/test: out $(shell find test -name *.cpp)
-	g++ -std=c++17 test/main.cpp -o out/test
+test: out/test
 	./out/test
 
-out/main.hpp: out $(shell find src -name *.hpp)
+out/test: out $(wildcard test/**/*.hpp test/**/*.cpp)
+	g++ -std=c++17 test/main.cpp -o out/test
+
+out/main.hpp: out $(wildcard src/**/*.hpp)
 	g++ -std=c++17 -E src/main.hpp -o out/main.hpp
 
 out:
